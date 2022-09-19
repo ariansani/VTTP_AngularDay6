@@ -1,0 +1,7 @@
+<h2>My List of Numbers</h2>
+
+<ul>
+    <li *ngFor = "let i of nums">
+        <a [routerLink]="['/number',i]">{{ i }}</a>
+    </li>
+</ul>
